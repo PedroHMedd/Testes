@@ -1,0 +1,23 @@
+O que é uma máquina virtual
+
+Um computador dentro do seu computador! Essa é a ideia por trás das máquinas virtuais (VMs). Elas funcionam como um software que cria um ambiente completo de computador, com seu próprio sistema operacional, memória, CPU e armazenamento.
+Para que servem as VMs?
+•	Executar vários sistemas operacionais: Teste softwares em diferentes ambientes ou use programas incompatíveis com o seu sistema principal.
+•	Isolar aplicativos: Proteja seu sistema principal de falhas ou vírus em softwares específicos.
+•	Criar ambientes de desenvolvimento: Configure ambientes personalizados para cada projeto, aumentando a produtividade.
+•	Executar aplicativos na nuvem: Acesse seus programas de qualquer lugar, desde que tenha acesso à internet.
+Como funcionam as VMs?
+Um programa chamado hipervisor é o maestro da VM. Ele divide os recursos do seu computador entre as VMs, como se fossem vários computadores independentes. Cada VM tem sua própria fatia de recursos, sem interferir nas outras.
+Benefícios das VMs:
+•	Flexibilidade: Crie, copie, mova e exclua VMs facilmente.
+•	Portabilidade: Leve suas VMs para outros computadores ou para a nuvem.
+•	Segurança: Isole aplicativos e dados para maior proteção.
+•	Eficiência: Utilize os recursos do seu computador de forma otimizada.
+Se você precisa executar vários sistemas operacionais, isolar aplicativos ou criar ambientes de desenvolvimento personalizados, as VMs podem ser uma ótima opção. Mas, lembre-se de considerar os benefícios e as limitações antes de começar.
+•	Docker e containers: Docker é uma ferramenta que facilita a criação e execução de programas em pacotes chamados containers.
+•	Como funcionam os containers? Cada container tem tudo o que um programa precisa para funcionar: seu código, bibliotecas, configurações e até mesmo um pequeno sistema operacional. Isso torna os containers portáteis e leves, pois eles não precisam se preocupar com o que já está instalado na máquina onde serão executados.
+•	Por que usar containers? Há vários motivos:
+o	Isolamento: Os containers rodam de forma isolada, o que significa que um programa rodando em um container não vai afetar outros programas.
+o	Portabilidade: Você pode mover containers facilmente entre diferentes computadores, nuvem ou local, sem precisar se preocupar com compatibilidade.
+o	Leveza: Containers são bem mais leves que máquinas virtuais, o que significa que inicializam mais rápido e usam menos recursos.
+Docker é como o contêiner que organiza e empacota tudo para o seu software, e o container é o pacote em si, pronto para ser executado.
